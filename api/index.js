@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 // Use CORS middleware to allow requests from your Flutter app (origin: any for dev)
-app.use(cors({ origin: '*' })); // IMPORTANT: For production, change '*' to your Flutter app's domain
+app.use(cors({ origin: 'https://food-delivery-app-five-navy.vercel.app/' })); // IMPORTANT: For production, change '*' to your Flutter app's domain
 app.use(express.json()); // Enable JSON body parsing
 
 // Define a POST endpoint for creating a Payment Intent
