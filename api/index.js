@@ -1,6 +1,6 @@
 // api/index.js
 const express = require('express');
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY); // Initialize Stripe with secret key from environment variables
+const stripe = require('stripe')(process.env.sk_test_51Rc54mCalxIdZZebsPmY4fehZOqlg2cfK8RBFGG7kM9Gr2oMo8K6wDJRhRty0tewh2T6Un0QDv7VlJaZTelVPzin00j6GvLATF); // Initialize Stripe with secret key from environment variables
 const cors = require('cors');
 
 const app = express();
